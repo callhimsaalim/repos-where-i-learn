@@ -1,0 +1,23 @@
+
+npm init -y (package.json)
+
+
+npm add -D @types/node typescript 
+
+copied ts.config from his git
+
+npm run watch to transpile TS code
+
+nodemon for executing js file
+
+You can also install nodemon as a development dependency:
+
+npm install --save-dev nodemon # or using yarn: yarn add nodemon -D
+With a local installation, nodemon will not be available in your system path or you can't use it directly from the command line. Instead, the local installation of nodemon can be run by calling it from within an npm script (such as npm start) or using npx nodemon.
+
+npm add @mikro-orm/core @mikro-orm/postgresql @micro-orm/cli @micro-orm/migrations 
+pg
+
+
+to run ur migration .ts file and create postgres script
+npx mikro-orm migration:create
